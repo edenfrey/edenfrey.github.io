@@ -8,8 +8,8 @@ import { faEnvelope, faHome, faUser } from "@fortawesome/free-solid-svg-icons";
 const Sidebar = () => {
     <div className="nav-bar">
         <Link className="logo">
-            <img src = {LogoS} alt="logo"></img>
-            <img className="sub-logo" src = {LogoSubtitle} alt="adrian"></img>
+            <img src = {LogoS} alt="logo" />
+            <img className="sub-logo" src = {LogoSubtitle} alt="adrian" />
         </Link>
         <nav>
             <NavLink exact="true" activeclassname="active" to="/">
